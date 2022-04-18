@@ -1,0 +1,19 @@
+<div class="contained">
+  <header>
+  <h1>Savvy Nomad's Pomodoro Clock</h1>
+  </header>
+  <div class="pom-container">
+    <div class="pom">
+      <p class="title">Pomodoro:</p>
+    <span><i class="fa fa-minus-square less-pom" aria-hidden="true" onclick =" lessNumber('pom')"></i></span><input type="number" id="mins-input" value="25" disabled /><span><i class="fa fa-plus-square plus-pom" aria-hidden="true" onclick =" plusNumber('pom')"></i></span>
+    </div>
+<div class="break">
+  <p class="title">Break Time:</p>
+    <span><i class="fa fa-minus-square less-brk" aria-hidden="true" onclick =" lessNumber('brk')"></i></span><input type="number" id="mins-break" value="5" disabled /><span><i class="fa fa-plus-square plus-brk" aria-hidden="true" onclick =" plusNumber('brk')"></i></span>
+    </div>
+  </div>
+  <span class="mins"></span>
+  <div class="button-container">
+    <button class="start">Start</button>
+  </div>
+</div>

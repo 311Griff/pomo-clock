@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One:400);
+$tablet: 'screen and(min-width: 767px)' !default;
+body {
+  background: #AAAA39;
+   padding: 0;
+    margin: 0;
+    border: 0;
+  * {
+    font-family: 'Russo One', sans-serif;
+    overflow:hidden;
+  }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+a:active {
+  color: transparent;
+}
+button.start:focus, button.start:active, button.start, button.start:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+  textarea:focus, input:focus{
+    outline: none;
+    background-color:none;
+}
+}
+
+.contained {
+  max-width: 1250px;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFAA;
+}
+
+.pom-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  input {
+    width: 25%;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #D4D46A;
+  }
+  .pom,
+  .break {
+    
+    .title {
+      margin-bottom: 0;
+      font-size: 30px;
+    }
+    span i {
+      font-size: 50px;
+      margin: 5px;
+      cursor: pointer;
+      
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+}
+
+.button-container {
+  width: 80%;
+  margin: 0 auto;
+  button {
+    border: 2px solid navy;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 45px auto;
+    display: block;
+  }
+}
+
+.mins {
+  height: 100px;
+  margin: 30px auto;
+  font-size: 80px;
+  text-align: center;
+  display: block;
+  color: #555500;
+}
